@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-1">
-            <p class="nav"><a href="home.php"><b> Home</b></a></p>
+            <p class="nav"><a href="index.php"><b> Home</b></a></p>
         </div>
         <div class="col-md-1">
             <p class="nav"><a href="contact.php"><b> Contact</b></a></p>
