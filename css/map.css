@@ -1,0 +1,43 @@
+#nav {
+    background-color: black;
+    height: 70px;
+}
+.nav{
+	text-align: center;
+	margin-top: 10px;
+	font-family:"Courier New", Courier, monospace;
+    font-size: 19px;
+    color: white;
+    }
+.nav:hover{
+    color: rgb(140, 235, 140);
+	padding: 1px;
+	background-color: greenyellow;
+}
+.nav a {
+    transition: color 0.5s;
+    color: white;
+}
+#name {
+	color: greenyellow;
+	font-size: 50px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-left: 100px;
+}
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 700px;
+    width: 800px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 1500px;
+}
+#foot {
+    height: 40px;
+    background-color: black;
+}
