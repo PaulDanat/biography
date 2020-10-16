@@ -12,14 +12,17 @@
 <body>
     <div class="col-md-12" id="nav">
         <div class="col-md-6">
-            <font id="name"><b>My Bio</b></font>
+        <p id="name"><a href="index.php"><b>MY BIO</b></a></p>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
         <div class="col-md-1">
             <p class="nav"><a href="index.php"><b> Home</b></a></p>
         </div>
         <div class="col-md-1">
             <p class="nav"><a href="contact.php"><b> Contact</b></a></p>
+        </div>
+        <div class="col-md-1">
+            <p class="nav"><a href="about.php"><b> ABOUT </b></a></p>
         </div>
         <div class="col-md-1"></div>
     </div>
@@ -49,20 +52,19 @@
                     <br> <b id="web">WEB DESIGN</b>
                 </p>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3" id="middle">
-                <br><img src="media/java.jpg" alt="" width="350px" height="200px">
+            <div class="col-md-4" id="middle">
+                <br><img src="media/java.jpg" alt="" width="400px" height="200px" style="padding-left: 80px">
                 <p>
                     <br> <b id="java">JAVA</b>
                 </p>
             </div>
-            <div class="col-md-1"></div>
             <div class="col-md-3" id="right">
                 <br><img src="media/sql.png" alt="" width="350px" height="200px">
                 <p>
                     <br> <b id="sql">SQL</b>
                 </p>
             </div>
+            <div class="col-md-1"></div>
 
         </div>
     </div>
@@ -75,13 +77,15 @@
         </div>
         <div class="col-md-7" id="aboutme">
             <h3 class="hny-title">
-                About Me<span class="dot-1">.</span>
+                ME<span class="dot-1"></span>
             </h3>
             <p id="me"> I am currently studying Industrial mathematics-computer option at Covenant university, <br>
                 I'm an intern at Wootlab innovations. I have programmimg knowledge in different <br>
                 programmimg languages.<br>
                 I always try my best to make good user interface with the best user experience.
-                </p>
+            </p>
+            <button onclick="window.location.href='about.php';">ABOUT
+            </button>
         </div>
         <div class="col-md-1"></div>
     </div>

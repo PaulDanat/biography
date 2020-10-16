@@ -12,26 +12,29 @@
 <body>
     <div class="col-md-12" id="nav">
         <div class="col-md-6">
-            <font id="name"><b>My Bio</b></font>
+            <p id="name"><a href="index.php"><b>MY BIO</b></a></p>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
         <div class="col-md-1">
             <p class="nav"><a href="index.php"><b> Home</b></a></p>
         </div>
         <div class="col-md-1">
             <p class="nav"><a href="contact.php"><b> Contact</b></a></p>
         </div>
+        <div class="col-md-1">
+            <p class="nav"><a href="about.php"><b> ABOUT </b></a></p>
+        </div>
         <div class="col-md-1"></div>
     </div>
-
+    <div class="col-md-12" id="space"></div>
     <div class="col-md-12">
-        <div class="col-md-4" class="mapouter">
+        <div class="col-md-6" class="mapouter">
             <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=wootlab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                     scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2torrentz.net"></a>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
             <p id="contact"><b> Contact Form </b></p>
             <div class="container">
                 <form>
@@ -40,18 +43,18 @@
 
                     <label for="ename">Email</label>
                     <input type="email" id="ename" name="email" placeholder="jonsnow@example.com"><br>
-
+                        <p>
                     <label for="country">Country</label><br>
                     <select id="country" name="country">
                         <option value="igeria">Nigeria</option>
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
-                    </select>
-
+                    </select></p>
+                    <p>
                     <label for="message">Message</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:238px"></textarea><br>
+                        style="height:130px"></textarea></p>
 
                     <button id="green" onclick="send()">ENTER</button>
                     <script>
@@ -60,8 +63,10 @@
                         }
                     </script>
                 </form>
-            </div>
+            </div><br>
         </div>
+    </div>
+    <div class="col-md-12" id="space">    
     </div>
     <div class="col-md-12" id="foot">
         <div class="col-md-6">
