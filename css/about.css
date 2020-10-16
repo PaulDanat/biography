@@ -1,0 +1,90 @@
+body {
+    height: 736px;
+}
+#middle {
+    height: 640px;
+}
+#nav {
+    background-color: black;
+    height: 70px;
+}
+.nav{
+	text-align: center;
+	margin-top: 18px;
+	font-family:"Courier New", Courier, monospace;
+  font-size: 21px;
+  color: white;
+  text-transform: uppercase;
+  background: transparent;
+    }
+.nav:hover{
+    color: rgb(140, 235, 140);
+	padding: 1px;
+	background-color: greenyellow;
+}
+.nav a {
+    transition: color 0.5s;
+    color: white;
+}
+#name {
+	color: red;
+	font-size: 50px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-left: 100px;
+}
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 700px;
+    width: 800px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 1500px;
+}
+#foot {
+    height: 50px;
+    background-color: black;
+}
+#aboutme {
+    padding-left: 80px;
+    padding-top: 100px;
+}
+#rights{
+    padding-top: 15px;
+    color: white;
+}
+#me {
+    font-size: 20px;
+    color: black;
+}
+h3.hny-title {
+    font-size: 40px;
+    line-height: 46px;
+    color: #355172;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  #icon {
+    padding-top: 4px;
+}
+#brown {
+    background-color: rgb(236, 232, 226);
+    height: 640px;
+    padding-left: 40px;
+}
+#paul {
+    border-radius: 10px;
+    border: 4px double rgb(156, 156, 155);
+ }
+ #cv {
+     padding : 10px;
+     font-size: 16px;
+     background-color: yellowgreen;
+     border: 10px;
+     color: black;
+ }

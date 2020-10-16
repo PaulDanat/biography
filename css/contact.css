@@ -22,7 +22,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
 }
 
 button {
@@ -33,7 +33,11 @@ button {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  max-width:900px;
+  max-width:700px;
+  height: 500px;
+}
+#space {
+  height: 20px;
 }
 #nav {
     background-color: black;
@@ -41,7 +45,7 @@ button {
 }
 .nav{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 18px;
 	font-family:"Courier New", Courier, monospace;
   font-size: 21px;
   color: white;
@@ -67,10 +71,10 @@ button {
     color: black;
     font-size: 30px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    padding-left: 300px;
+    padding-left: 200px;
 }
 #foot {
-  height: 40px;
+  height: 50px;
   background-color: black;
 }
 .mapouter {
@@ -83,10 +87,14 @@ button {
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 400px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
+  padding-top: 50px;
 }
 #rights{
-  padding-top: 8px;
+  padding-top: 15px;
   color: white;
+}
+#icon {
+  padding-top: 4px;
 }
